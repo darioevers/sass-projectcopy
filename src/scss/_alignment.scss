@@ -1,0 +1,44 @@
+@import "./var/variables.scss";
+.content__left {
+  width: 55%;
+  text-align: justify;
+  margin: 7% 3% 7% 0%;
+}
+.buttons {
+  margin: auto;
+}
+.button1 {
+  background-color: $green-button;
+  color: white;
+  height: 60px;
+  width: 180px;
+  font-weight: 700;
+  font-family: Montserrat;
+  font-size: 1em;
+  border: none;
+  transition: $short-transition;
+  margin-right: 2vw;
+}
+.button2 {
+  background-color: $blue-button;
+  color: white;
+  height: 60px;
+  width: 180px;
+  font-weight: 700;
+  font-family: Montserrat;
+  font-size: 1em;
+  border: none;
+  transition: $short-transition;
+}
+button {
+  &:hover {
+    transition: $short-transition;
+    transform: scale(1.2);
+  }
+}
+.content__right {
+  position: relative;
+  display: flex;
+  width: 500px;
+  margin: auto auto auto 100px;
+}

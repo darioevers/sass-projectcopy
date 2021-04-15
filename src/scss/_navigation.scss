@@ -1,0 +1,40 @@
+@import "./var/variables.scss";
+
+.topnav {
+  position: relative;
+  display: flex;
+  background-color: transparent;
+  overflow: hidden;
+  text-align: left;
+  justify-content: center;
+  line-height: 80px;
+  min-height: 80px;
+  width: 1100px;
+  margin: 3.5% auto;
+  img {
+    width: 180px;
+  }
+}
+.logo {
+  width: 40%;
+  justify-content: left;
+}
+.nav {
+  width: 60%;
+  a {
+    width: 1100px;
+    color: white;
+    text-align: right;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 100%;
+    font-weight: 450;
+    transition: $short-transition;
+    &:hover {
+      font-size: 110%;
+      transition: $short-transition;
+      color: salmon;
+    }
+  }
+}
