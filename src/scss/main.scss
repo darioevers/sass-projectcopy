@@ -4,9 +4,9 @@
 @import "./_images";
 
 html {
-  height: 100vh;
+  height: $full-h;
   background-image: url("/images/bg_001.jpg");
-  height: 100vh;
+  height: $full-h;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
